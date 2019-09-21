@@ -26,11 +26,11 @@ def gif_player(gifMast):
 
 def email_sender(damage):
     print("   sender initiated")
-    gmail_user = 'kwarncontracting@gmail.com'  
-    gmail_password = 'grdilpklyiywjbwj'
+    gmail_user = 'example@gmail.com'  
+    gmail_password = 'password4aboveemail'
 
     sent_from = gmail_user  
-    to = ["kjc7504@wmich.edu"]  #to = ['address1@email.com', 'address2@email.com']  'caleb@metalfabrications.com', 'ctheriault@metalfabrications.com'
+    to = ["receipientaddress@gmail.com"]  #to = ['address1@email.com', 'address2@email.com']
     subject = 'Test Message'  
 
     #x-1 = # of emails sent
@@ -106,5 +106,3 @@ if damage == "3":
     gif_player(gifMast)
 
 print("\n\nI can't believe you pushed the button. \nWhy did you do it? \n\nWill you do it again? \n\n")
-
-
